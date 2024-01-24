@@ -1,0 +1,29 @@
+# Solicitar la cantidad de arepas al usuario
+cantidad_arepas = input("Ingrese la cantidad de arepas: ")
+
+# Calcular la cantidad de ingredientes por arepa
+aceite_por_arepa = 0.125
+harina_por_arepa = 4
+agua_por_arepa = 3
+sal_por_arepa = 0.03
+
+# Calcular la cantidad total de ingredientes
+aceite_total = float(cantidad_arepas) * aceite_por_arepa
+harina_total = float(cantidad_arepas) * harina_por_arepa
+agua_total = float(cantidad_arepas) * agua_por_arepa
+sal_total = float(cantidad_arepas) * sal_por_arepa
+
+# Mostrar los resultados
+print("Cantidad de ingredientes por arepa:")
+print("Aceite:", aceite_por_arepa, "cucharadas")
+print("Harina:", harina_por_arepa, "cucharadas")
+print("Agua:", agua_por_arepa, "cucharadas")
+print("Sal:", sal_por_arepa, "cucharadas")
+print("Cantidad total de ingredientes:")
+print("Aceite:", aceite_total, "cucharadas")
+print("Harina:", harina_total, "cucharadas")
+print("Agua:", agua_total, "cucharadas")
+print("Sal:", sal_total, "cucharadas")
+
+
+    
